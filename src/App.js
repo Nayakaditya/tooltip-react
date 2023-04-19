@@ -1,23 +1,13 @@
 import React from "react";
 import Tooltip from "./Tooltip";
+import './Tooltip.css';
 
 class App extends React.Component {
-  constructor() {
-    super();
 
-    this.state = {
-      hoverText: null,
-    };
-  }
   render() {
-    let { hoverText } = this.state;
-    const place = "top";
-    const text = (message) => {
-      return (hoverText = message);
-    };
     return (
       <div className="App">
-        <Tooltip position={place} text={text("Hovering message")} />
+        <Tooltip position="left" text="Thanks for Hovering! I'm a tooltip" />
       </div>
     );
   }

@@ -1,0 +1,18 @@
+.App{
+  display: grid;
+  place-items: center;
+}
+button {
+  font-size: 1.3em;
+  text-decoration: underline;
+  color: grey;
+  padding: 20px;
+  margin-top: 120px;
+}
+
+.ToolContainer{
+  position: relative;
+  width: 800px;
+  display: grid;
+  place-items: center;
+}
